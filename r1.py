@@ -24,7 +24,7 @@ def convert(lines):
 def write_file(filename, lines):
 	with open(filename, 'w') as f:
 		for line in lines:
-			f.writes(line + '\n')
+			f.write(line + '\n')
 
  
 def main():
